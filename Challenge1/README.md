@@ -9,12 +9,13 @@ Solution:
    I would be using Infastructure as Code(IaC) approach using Azure Resource Manager (ARM) Template(Reusable JSON code for repeatable or similar         provisioning or deployment).
    
    Environment consists of:
-    4 Subnets(Each tier is also placed inside its own subnet)
-    4 Network security groups for each subnet
-    An external load balancer to distribute Internet requests across the instances
-    An Internal Load Balancer to load balance traffic for app VM's
-    One jumpbox(bastion host) for ssh access to all other tier VMs
-    2 Public IP’s, one for external Load balancer and other for Jump VM
-    3 Virtual Machine Availability sets for Web Tier, Application Tier and Database tier.
-    4 storage accounts
-
+   
+       1. A virtual Network
+       2. 4 Subnets(Each tier is also placed inside its own subnet)
+       3. 4 Network security groups for each subnet
+       4. An external load balancer to distribute Internet requests across the instances
+       5. An Internal Load Balancer to load balance traffic for app VM's
+       6. One jumpbox(bastion host) for ssh access to all other tier VMs
+       7. 2 Public IP’s, one for external Load balancer and other for Jump VM
+       8. Virtual Machine Availability sets for Web Tier, Application Tier and Database tier.
+       9. storage accounts
