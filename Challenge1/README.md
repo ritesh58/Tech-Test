@@ -4,6 +4,9 @@
 
 Solution:
 
+![image](https://user-images.githubusercontent.com/3917151/176560214-d275822d-d125-43b2-88a0-0abeff4f7466.png)
+
+
     I would be using Infastructure as Code(IaC) approach using Azure Resource Manager (ARM) Template(Reusable JSON code for repeatable or similar provisioning or deployment).
       Environment consists of:
         1 Virtual Network
