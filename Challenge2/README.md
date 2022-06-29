@@ -6,11 +6,13 @@ Bonus Points
 The code allows for a particular data key to be retrieved individually
 
 Solution:
-    I am using shell and python scripts for this solution as per my skills
-    This solution is also extended to allow for a perticular data key to be retrieved individually
-    Script is asking for user input and prints the result as desired
+
+   1. I am using bash and python scripts for this solution as per my skills
+   2. This solution is also extended to allow for a perticular data key to be retrieved individually
+   3. Script is asking for user input and prints the result as desired
+   
 Test:
-    Run Command "./get_metadata.sh"
-    Enter 1 to fetch whole json
-    Enter 2 fetch perticular key value
-cd ..
+
+    1. Run Command "./get_metadata.sh"
+    2.  Enter 1 to fetch whole json
+    3.  Enter 2 fetch perticular key value
